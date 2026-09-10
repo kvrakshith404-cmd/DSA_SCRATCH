@@ -1,12 +1,13 @@
+/*clarify that fibonic series for n is different than fibonic series of nth term */
 import  java.util.*;
 public class Fibonic_series {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
-        System.out.print("Enter the number: ");
+        System.out.print("Enter the value for n: ");
         int n=input.nextInt();
-        System.out.print("Fibonic Series: ");
+        System.out.print("Fibonic Series for n numbers : ");
         //Base condition
-        if(n==0||n==1){
+        if(n==0){
             System.out.print(n);
             return;
         }
