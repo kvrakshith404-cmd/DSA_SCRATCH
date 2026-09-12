@@ -9,6 +9,7 @@ public class Average_of_5_marks {
             sum+=m;
         }
         System.out.println("Avreage of 5 subjects marks: "+(sum/5));
+        input.close();
     }
     
 }
