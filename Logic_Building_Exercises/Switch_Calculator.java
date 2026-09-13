@@ -9,7 +9,7 @@ public class Switch_Calculator {
         int a = input.nextInt();
         int b = input.nextInt();
         System.out.println("Enter the operator to perform operation(+,-,%,*,/):");
-        char op = input.next().charAt(0);
+        char op = input.next().charAt();
         switch (op) {
             case '+':
                 System.out.println("SUM = " + (a + b));
