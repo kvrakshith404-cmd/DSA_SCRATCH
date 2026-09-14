@@ -17,6 +17,7 @@ public class Decimal_ToBinary {
         System.out.println("ENter the Decimal Number :");
         int  Dec=input.nextInt();
         Binary_Convert(Dec);
+        input.close();
     }
     
 }
