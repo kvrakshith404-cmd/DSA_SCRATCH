@@ -1,6 +1,6 @@
 package DSA_SCRATCH.Array;
-import java.util.*;
-public class Subarray {
+import java.util.*;   
+public class Subarray { //Time complexity->O(pow(n,3)) space ->O(1)
     public  static void Sub_Array(int a[]){
         int ts=0;
         int Large=Integer.MIN_VALUE;

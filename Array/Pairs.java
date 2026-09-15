@@ -1,6 +1,6 @@
 package DSA_SCRATCH.Array;
 import java.util.*;
-public class Pairs {
+public class Pairs { //Time complexity->O(pow(n,2)) space ->O(1)
     public static void Pair_in_Array(int a[]){
         int tp=0;
         for(int i=0;i<a.length;i++){

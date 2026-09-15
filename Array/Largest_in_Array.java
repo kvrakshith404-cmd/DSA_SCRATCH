@@ -1,5 +1,5 @@
  import java.util.*;
- public class Largest_in_Array {
+ public class Largest_in_Array {  //Time complexity->O(n) space ->O(1)
     public static int Largest(int a[]){
         int Large=Integer.MIN_VALUE;
         for(int i=0;i<a.length;i++){
